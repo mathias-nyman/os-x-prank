@@ -13,7 +13,7 @@ while true; do
     if [[ "\$text" == "" ]]; then
         sleep 60;
     else
-        say "$text";
+        say "\$text";
         sleep 10;
     fi
 done &
